@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "outputDirectory": "public",
+  "routes": [
+    { "src": "/_next/static/chunks/pages/(.*)", "dest": "/public/$1" },
+    { "src": "/_next/static/chunks/(.*)", "dest": "/public/$1" },
+    { "src": "/_next/static/media/(.*)", "dest": "/public/$1" },
+    { "src": "/_next/image", "dest": "/public/heroimg.png" },
+    { "src": "/latest/(.*)", "dest": "/public/$1" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ]
+}
